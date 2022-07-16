@@ -15,8 +15,13 @@ public class DataFeedUtilTest {
 
     @Test
     public void fetchTournamentFeedForSource1() {
-        List<Tournament> tournamentList = dataFeedUtil.fetchTournamentFeed(1);
-        Assert.assertEquals(tournamentList.size()>0,true);
+        Tournament tournament = dataFeedUtil.fetchTournamentFeed(1);
+        Assert.assertEquals(tournament!=null,true);
+    }
+    @Test
+    public void fetchTournamentFeedForSource2() {
+        Tournament tournament = dataFeedUtil.fetchTournamentFeed(2);
+        Assert.assertEquals(tournament,null);
     }
 
 }

@@ -1,12 +1,11 @@
 package worldCup;
 
-import dto.Tournament;
-
-import java.util.List;
+import dto.ScoreBoardResponse;
+import java.util.Map;
 
 public interface PlayGame {
 
-    public void beginGame();
+    public Map<Integer, ScoreBoardResponse> beginGame(Integer feedSource);
 
 
 }

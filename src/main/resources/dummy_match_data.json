@@ -1,4 +1,4 @@
-[
+{"game": [
   {
     "date": "21 Nov 12:45",
     "homeTeam": {
@@ -1054,4 +1054,4 @@
     "currentEvent": [],
     "gameEnded": true
   }
-]
+]}
