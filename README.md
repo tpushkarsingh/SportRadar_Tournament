@@ -10,8 +10,8 @@ Assumptions:
 2. The feed send Event and Teams Data.
 3. Events are classified specific to a game ,for football (GOAL, OUTSIDE, CORNER) etc.  All assumed values can be found under ENUM (EventTypes).
 4. For this problem statement only GOAL Event Type is considered for computation. Hence, the sorting is based on
-   a) No. of goals secured in a Game.
-   b) The latest Goal Event received by the team. In case of matching goal counts, match having the latest goal secured will be placed above.
+   </br>a) No. of goals secured in a Game.
+   </br>b) The latest Goal Event received by the team. In case of matching goal counts, match having the latest goal secured will be placed above.
 5. The lastest feed for goals as per Json is:
 ![img.png](img.png)
    
