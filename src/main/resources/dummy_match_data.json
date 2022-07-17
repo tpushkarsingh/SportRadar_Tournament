@@ -1,1057 +1,1024 @@
-{"game": [
-  {
-    "date": "21 Nov 12:45",
-    "homeTeam": {
-      "teamName": "Germany",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "France",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "outside",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 12:45",
-    "homeTeam": {
-      "teamName": "Argentina",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "Australia",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "corner",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 12:48",
-    "homeTeam": {
-      "teamName": "Argentina",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "Australia",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "outside",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 12:50",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "outside",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 12:51",
-    "homeTeam": {
-      "teamName": "Germany",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "France",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Corner",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 12:54",
-    "homeTeam": {
-      "teamName": "Argentina",
-      "teamScore": "1"
-    },
-    "awayTeam": {
-      "teamName": "Australia",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 12:55",
-    "homeTeam": {
-      "teamName": "Mexico",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "Canada",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Corner",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 12:58",
-    "homeTeam": {
-      "teamName": "Germany",
-      "teamScore": "1"
-    },
-    "awayTeam": {
-      "teamName": "France",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 12:58",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "1"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:01",
-    "homeTeam": {
-      "teamName": "Mexico",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "Canada",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:03",
-    "homeTeam": {
-      "teamName": "Germany",
-      "teamScore": "1"
-    },
-    "awayTeam": {
-      "teamName": "France",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "FreeKick",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:04",
-    "homeTeam": {
-      "teamName": "Argentina",
-      "teamScore": "1"
-    },
-    "awayTeam": {
-      "teamName": "Australia",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Offside",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:05",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "2"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:08",
-    "homeTeam": {
-      "teamName": "Germany",
-      "teamScore": "1"
-    },
-    "awayTeam": {
-      "teamName": "France",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:11",
-    "homeTeam": {
-      "teamName": "Mexico",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "Canada",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Offside",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:15",
-    "homeTeam": {
-      "teamName": "Germany",
-      "teamScore": "1"
-    },
-    "awayTeam": {
-      "teamName": "France",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Offside",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:17",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "2"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:18",
-    "homeTeam": {
-      "teamName": "Mexico",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "Canada",
-      "teamScore": "2"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:18",
-    "homeTeam": {
-      "teamName": "Argentina",
-      "teamScore": "2"
-    },
-    "awayTeam": {
-      "teamName": "Australia",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:22",
-    "homeTeam": {
-      "teamName": "Mexico",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "Canada",
-      "teamScore": "2"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Offside",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:25",
-    "homeTeam": {
-      "teamName": "Germany",
-      "teamScore": "1"
-    },
-    "awayTeam": {
-      "teamName": "France",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Substitution",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:28",
-    "homeTeam": {
-      "teamName": "Mexico",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "Canada",
-      "teamScore": "3"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:29",
-    "homeTeam": {
-      "teamName": "Argentina",
-      "teamScore": "3"
-    },
-    "awayTeam": {
-      "teamName": "Australia",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:30",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "2"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Offside",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:40",
-    "homeTeam": {
-      "teamName": "Mexico",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "Canada",
-      "teamScore": "4"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:45",
-    "homeTeam": {
-      "teamName": "Germany",
-      "teamScore": "1"
-    },
-    "awayTeam": {
-      "teamName": "France",
-      "teamScore": "2"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:45",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "3"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:45",
-    "homeTeam": {
-      "teamName": "Mexico",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "Canada",
-      "teamScore": "5"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:46",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "1"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:48",
-    "homeTeam": {
-      "teamName": "Germany",
-      "teamScore": "1"
-    },
-    "awayTeam": {
-      "teamName": "France",
-      "teamScore": "2"
-    },
-    "currentEvent": [
-      {
-        "eventType": "outside",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:50",
-    "homeTeam": {
-      "teamName": "Germany",
-      "teamScore": "2"
-    },
-    "awayTeam": {
-      "teamName": "France",
-      "teamScore": "2"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:51",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "2"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:51",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "3"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "2"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:45",
-    "homeTeam": {
-      "teamName": "Mexico",
-      "teamScore": "0"
-    },
-    "awayTeam": {
-      "teamName": "Canada",
-      "teamScore": "5"
-    },
-    "currentEvent": [],
-    "gameEnded": true
-  },
-  {
-    "date": "21 Nov 13:52",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "3"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:53",
-    "homeTeam": {
-      "teamName": "Argentina",
-      "teamScore": "3"
-    },
-    "awayTeam": {
-      "teamName": "Australia",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:54",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "4"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "2"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:56",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "4"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:58",
-    "homeTeam": {
-      "teamName": "Germany",
-      "teamScore": "2"
-    },
-    "awayTeam": {
-      "teamName": "France",
-      "teamScore": "2"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Hand ball",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:59",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "4"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "0"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Corner",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:00",
-    "homeTeam": {
-      "teamName": "Germany",
-      "teamScore": "2"
-    },
-    "awayTeam": {
-      "teamName": "France",
-      "teamScore": "2"
-    },
-    "currentEvent": [],
-    "gameEnded": true
-  },
-  {
-    "date": "21 Nov 14:03",
-    "homeTeam": {
-      "teamName": "Argentina",
-      "teamScore": "3"
-    },
-    "awayTeam": {
-      "teamName": "Australia",
-      "teamScore": "1"
-    },
-    "currentEvent": [],
-    "gameEnded": true
-  },
-  {
-    "date": "21 Nov 14:04",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "4"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:05",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "4"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "3"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:16",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "5"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:17",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "4"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "4"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:17",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "4"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "4"
-    },
-    "currentEvent": [
-      {
-        "eventType": "Extra time",
-        "fromTeam": ""
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:20",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "5"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "4"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:21",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "6"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:23",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "5"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "5"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:27",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "5"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "6"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:30",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "6"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "6"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:31",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "7"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:33",
-    "homeTeam": {
-      "teamName": "Uruguay",
-      "teamScore": "6"
-    },
-    "awayTeam": {
-      "teamName": "Italy",
-      "teamScore": "6"
-    },
-    "currentEvent": [],
-    "gameEnded": true
-  },
-  {
-    "date": "21 Nov 14:38",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "7"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "corner",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:43",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "8"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "1"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:45",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "8"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "2"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "away"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:53",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "9"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "2"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 14:57",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "10"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "2"
-    },
-    "currentEvent": [
-      {
-        "eventType": "goal",
-        "fromTeam": "home"
-      }
-    ],
-    "gameEnded": false
-  },
-  {
-    "date": "21 Nov 13:00",
-    "homeTeam": {
-      "teamName": "Spain",
-      "teamScore": "10"
-    },
-    "awayTeam": {
-      "teamName": "Brazil",
-      "teamScore": "2"
-    },
-    "currentEvent": [],
-    "gameEnded": true
-  }
-]}
+{
+  "game": [
+    {
+      "date": "21 Nov 12:45",
+      "homeTeam": {
+        "teamName": "Germany",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "France",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "outside",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 12:45",
+      "homeTeam": {
+        "teamName": "Argentina",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Australia",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "corner",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 12:48",
+      "homeTeam": {
+        "teamName": "Argentina",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Australia",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "outside",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 12:50",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "outside",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 12:51",
+      "homeTeam": {
+        "teamName": "Germany",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "France",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Corner",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 12:54",
+      "homeTeam": {
+        "teamName": "Argentina",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Australia",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 12:55",
+      "homeTeam": {
+        "teamName": "Mexico",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Canada",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Corner",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 12:58",
+      "homeTeam": {
+        "teamName": "Germany",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "France",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 12:58",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:01",
+      "homeTeam": {
+        "teamName": "Mexico",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Canada",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:03",
+      "homeTeam": {
+        "teamName": "Germany",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "France",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "FreeKick",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:04",
+      "homeTeam": {
+        "teamName": "Argentina",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Australia",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Offside",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:05",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:08",
+      "homeTeam": {
+        "teamName": "Germany",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "France",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:11",
+      "homeTeam": {
+        "teamName": "Mexico",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Canada",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Offside",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:15",
+      "homeTeam": {
+        "teamName": "Germany",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "France",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Offside",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:17",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:18",
+      "homeTeam": {
+        "teamName": "Mexico",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Canada",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:18",
+      "homeTeam": {
+        "teamName": "Argentina",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Australia",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:22",
+      "homeTeam": {
+        "teamName": "Mexico",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Canada",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Offside",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:25",
+      "homeTeam": {
+        "teamName": "Germany",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "France",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Substitution",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:28",
+      "homeTeam": {
+        "teamName": "Mexico",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Canada",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:29",
+      "homeTeam": {
+        "teamName": "Argentina",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Australia",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:30",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Offside",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:40",
+      "homeTeam": {
+        "teamName": "Mexico",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Canada",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:45",
+      "homeTeam": {
+        "teamName": "Germany",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "France",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:45",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:45",
+      "homeTeam": {
+        "teamName": "Mexico",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Canada",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:46",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:48",
+      "homeTeam": {
+        "teamName": "Germany",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "France",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "outside",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:50",
+      "homeTeam": {
+        "teamName": "Germany",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "France",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:51",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:51",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:45",
+      "homeTeam": {
+        "teamName": "Mexico",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Canada",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "outside",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:52",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:53",
+      "homeTeam": {
+        "teamName": "Argentina",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Australia",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:54",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:56",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:58",
+      "homeTeam": {
+        "teamName": "Germany",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "France",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Hand ball",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 13:59",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Corner",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:00",
+      "homeTeam": {
+        "teamName": "Germany",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "France",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "outside",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:03",
+      "homeTeam": {
+        "teamName": "Argentina",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Australia",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "outside",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:04",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:05",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:16",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:17",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:17",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "Extra time",
+          "fromTeam": ""
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:20",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:21",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:23",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:27",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:30",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:31",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:33",
+      "homeTeam": {
+        "teamName": "Uruguay",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Italy",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "outside",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:38",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "corner",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:43",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:45",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "1"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "away"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:53",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 14:57",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "1"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "goal",
+          "fromTeam": "home"
+        }
+      ]
+    },
+    {
+      "date": "21 Nov 15:00",
+      "homeTeam": {
+        "teamName": "Spain",
+        "teamScore": "0"
+      },
+      "awayTeam": {
+        "teamName": "Brazil",
+        "teamScore": "0"
+      },
+      "currentEvent": [
+        {
+          "eventType": "outside",
+          "fromTeam": "home"
+        }
+      ]
+    }
+  ]
+}

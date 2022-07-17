@@ -6,8 +6,6 @@ import org.mockito.InjectMocks;
 import org.mockito.runners.MockitoJUnitRunner;
 import util.DataFeedUtil;
 
-import java.util.List;
-
 @RunWith(MockitoJUnitRunner.class)
 public class DataFeedUtilTest {
     @InjectMocks

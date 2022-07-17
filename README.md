@@ -9,11 +9,12 @@ Assumptions:
 1. A live data feed is imitated in resources/dummy_match_data.json
 2. The feed send Event and Teams Data.
 3. Events are classified specific to a game ,for football (GOAL, OUTSIDE, CORNER) etc.  All assumed values can be found under ENUM (EventTypes).
-4. For this problem statement only GOAL Event Type is considered for computation.
-5. A Game is termed valid once "gameEnded" flag is turned true in response Json.
-6. The last entered data as per Json as as below
+4. For this problem statement only GOAL Event Type is considered for computation. Hence, the sorting is based on
+   a) No. of goals secured in a Game.
+   b) The latest Goal Event received by the team. In case of matching goal counts, match having the latest goal secured will be placed above.
+5. The lastest feed for goals as per Json is:
 ![img.png](img.png)
    
-7. Based on the last data expected output should be 
+6. Based on the sorting as mentioned in step4. output should be 
 ![img_1.png](img_1.png)
    

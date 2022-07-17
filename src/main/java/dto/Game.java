@@ -12,7 +12,6 @@ public class Game {
     private Team homeTeam;
     private Team awayTeam;
     private List<Event> currentEvent;
-    private Boolean gameEnded;
 
     public String getDate() {
         return date;
@@ -44,13 +43,5 @@ public class Game {
 
     public void setCurrentEvent(List<Event> currentEvent) {
         this.currentEvent = currentEvent;
-    }
-
-    public Boolean getGameEnded() {
-        return gameEnded;
-    }
-
-    public void setGameEnded(Boolean gameEnded) {
-        this.gameEnded = gameEnded;
     }
 }

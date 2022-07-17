@@ -7,14 +7,10 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 import util.DataFeedUtil;
 import worldCup.impl.PlayFootBall;
 import static org.mockito.Mockito.*;
-
-import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.Map;
 import java.util.Optional;
 
@@ -26,13 +22,6 @@ public class PlayFootBallGameTest {
     @Mock
     private DataFeedUtil util = new DataFeedUtil();
 
-    @Test
-    public void checkUnEndedGameResponse() throws Exception{
-        ObjectMapper mapper = new ObjectMapper();
-        Tournament tournament = mapper.readValue(TestConstants.SCORE_RESPONSE,new TypeReference<Tournament>(){});
-        when(util.fetchTournamentFeed(any(Integer.class))).thenReturn(tournament);
-        Assert.assertEquals(footBall.beginGame(1).size(),0);
-    }
 
     @Test
     public void checkGameOffsideEventResponse() throws Exception{
@@ -52,5 +41,12 @@ public class PlayFootBallGameTest {
         ScoreBoardResponse response = data.values().stream().findFirst().get();
 
         Assert.assertEquals(java.util.Optional.ofNullable(response.getTotalMatchCount()), Optional.of(2));
+    }
+    @Test
+    public void checkGameCornerEventResponse() throws Exception{
+        ObjectMapper mapper = new ObjectMapper();
+        Tournament tournament = mapper.readValue(TestConstants.SCORE_OFFSIDE_RESPONSE,new TypeReference<Tournament>(){});
+        when(util.fetchTournamentFeed(any(Integer.class))).thenReturn(tournament);
+        Assert.assertEquals(footBall.beginGame(1).size(),0);
     }
 }

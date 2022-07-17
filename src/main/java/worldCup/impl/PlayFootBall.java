@@ -11,26 +11,38 @@ import util.DataFeedUtil;
 import util.SortUtil;
 import worldCup.PlayGame;
 
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.List;
+import java.util.Locale;
+import java.util.function.Predicate;
 
 public class PlayFootBall implements PlayGame {
     Logger logger = LoggerFactory.getLogger(PlayFootBall.class);
 
     Map<Integer,ScoreBoardResponse> responseMap = new LinkedHashMap<>();
     DataFeedUtil util = new DataFeedUtil();
+
+
     @Override
     public Map<Integer,ScoreBoardResponse> beginGame(Integer feedSource) {
+        logger.info("Starting the Game of Football !!");
         Tournament t = util.fetchTournamentFeed(feedSource);
         try {
-            t.getGame().stream()
-                    .filter(s -> {
-                        List<Event> event = s.getCurrentEvent();
-                        event.stream()
-                                .filter(s1 -> s1.getEventType().equalsIgnoreCase(String.valueOf(EventTypes.GOAL)));
-                        return true;
-                    })
-                    .filter(s2 -> s2.getGameEnded())
-                    .forEach(s3 -> fetchScoreBoardResponse(s3));
+
+            List<Game> currGame = t.getGame();
+            //Logic to filter game feed data having only goal as event.
+            //Predicate to check if its not a goal event
+            Predicate<Event> isGoalEvent = data -> !data.getEventType().equalsIgnoreCase(EventTypes.GOAL.name());
+            //Predicate for Game to look for goal events.
+            Predicate<Game> isGoalHitInGame= data -> {
+              data.getCurrentEvent().removeIf(isGoalEvent);
+              return data.getCurrentEvent().isEmpty();
+            };
+            //remove all non goal events
+            currGame.removeIf(isGoalHitInGame);
+            currGame.forEach(s-> fetchScoreBoardResponse(s));
+            //sort based on number of goals secured+ match which has the latest goal secured
             (new SortUtil()).sortScoreBoard(responseMap);
         }
         catch (Exception e){
@@ -40,7 +52,7 @@ public class PlayFootBall implements PlayGame {
     }
 
     public Integer getUniqueHashCodeForTeam(String homeTeamName, String awayTeamName) {
-        return new StringBuilder(homeTeamName.trim().toLowerCase(Locale.ROOT)).append(awayTeamName.trim().toLowerCase(Locale.ROOT)).hashCode();
+        return (homeTeamName.trim().toLowerCase(Locale.ROOT)+awayTeamName.trim().toLowerCase(Locale.ROOT)).hashCode();
     }
 
     public void fetchScoreBoardResponse(Game game){
@@ -48,8 +60,11 @@ public class PlayFootBall implements PlayGame {
         String awayTeamName = game.getAwayTeam().getTeamName();
         Integer homeTeamScore = game.getHomeTeam().getTeamScore();
         Integer awayTeamScore = game.getAwayTeam().getTeamScore();
+        //Hash using team names which is unique for a match used a key for map
         Integer teamHash = getUniqueHashCodeForTeam(homeTeamName,awayTeamName);
         ScoreBoardResponse response = responseMap.get(teamHash);
+        //remove the last entry and do entry again in map to keep the latest record sequence updated.
+        responseMap.remove(teamHash);
         if(response !=null ){
             response.setAwayTeamScore(response.getAwayTeamScore()+awayTeamScore);
             response.setHomeTeamScore(response.getHomeTeamScore()+homeTeamScore);
